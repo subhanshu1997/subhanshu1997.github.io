@@ -24,10 +24,10 @@ class Skills extends Component {
               {skills.imgSrc &&
                   <span>
                   <div className="text-center skills-tile" style={{width: "100%", height: "100%"}}>
-                      <img src={skills.imgSrc} style={{height: "100px", width: "100px"}}/>
+                      <img src={skills.imgSrc} style={{height: "90px", width: "90px"}}/>
                       <p
                           className="text-center"
-                          style={{fontSize: "80%", marginTop: "4px"}}
+                          style={{fontSize: "130%", marginTop: "4px", color: skills.color}}
                       >
                         {skills.name}
                       </p>
