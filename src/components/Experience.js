@@ -4,32 +4,20 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import Badge from "react-bootstrap/Badge";
 
 class Experience extends Component {
   render() {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
-        const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
+        const taskList = work.tasks;
 
-        var mainTech = mainTechnologies.map((technology, i) => {
+        var tasks = taskList.map((item, i) => {
           return (
-            <Badge pill className="main-badge mr-2 mb-2 main">
-              <h3>
-              {technology}
-              </h3>
-            </Badge>
-          );
-        });
-        var tech = technologies.map((technology, i) => {
-          return (
-            <Badge pill className="experience-badge mr-lg-4 mb-lg-3" key={i}>
-                <h3>
-              {technology}
-                </h3>
-            </Badge>
+              <h1>
+              {item}
+              <br/>
+              </h1>
           );
         });
         return (
@@ -46,23 +34,25 @@ class Experience extends Component {
 
                 <h1
                     className="vertical-timeline-element-title"
-                    style={{textAlign: "left", fontSize: "30px"}}
+                    style={{textAlign: "left", fontSize: "30px", backgroundColor: "#d7d6d2"}}
                 >
                     {work.title}
                 </h1>
                 <h2
                     className="vertical-timeline-element-subtitle"
-                    style={{textAlign: "left", fontSize: "20px"}}
+                    style={{textAlign: "left", fontSize: "20px", backgroundColor: "#d7d6d2" }}
                 >
                     {work.company}
                 </h2>
                 <h5
                     className="vertical-timeline-element-title"
-                    style={{textAlign: "left", fontSize: "20px", color: "gray"}}
+                    style={{textAlign: "left", fontSize: "20px", color: "gray", backgroundColor: "#d7d6d2"}}
                 >
                     {work.years}
                 </h5>
-                <div style={{textAlign: "left", marginTop: "15px"}}>{tech}</div>
+                <p>
+                  {tasks}
+                </p>
             </VerticalTimelineElement>
         );
       });
