@@ -77,17 +77,18 @@ class ProjectDetailsModal extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link-href"
+                  style={{textDecoration: "none" }}
                 >
                   <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
+                    className="devicon-github-original"
+                    style={{ marginLeft: "10px", fontSize: "30px"}}
                   ></i>
                 </a>
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
+            <p className="modal-description" style={{fontSize: "20px"}}>{description}</p>
             <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
+              <ul className="list-inline mx-auto" style={{fontSize: "15px"}}>{tech}</ul>
             </div>
           </div>
         </div>

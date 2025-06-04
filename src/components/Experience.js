@@ -14,10 +14,10 @@ class Experience extends Component {
 
         var tasks = taskList.map((item, i) => {
           return (
-              <h1>
+              <li>
               {item}
               <br/>
-              </h1>
+              </li>
           );
         });
         return (
@@ -50,9 +50,9 @@ class Experience extends Component {
                 >
                     {work.years}
                 </h5>
-                <p>
+                <ul style={{fontSize: "20px", margin: "15px"}}>
                   {tasks}
-                </p>
+                </ul>
             </VerticalTimelineElement>
         );
       });
