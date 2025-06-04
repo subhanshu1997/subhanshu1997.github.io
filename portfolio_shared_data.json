@@ -1,0 +1,130 @@
+{
+  "basic_info": {
+    "name": "Subhanshu Bigasia",
+    "titles": [ "Full-Stack Developer"],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/subhanshu1997",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/subhanshu-bigasia-a2a640156/",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "profile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Java",
+        "class": "devicon-java-plain colored",
+        "level": "95"
+      },
+      {
+        "name": "NodeJS",
+        "class": "devicon-nodejs-plain colored",
+        "level": "95"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain colored",
+        "level": "95"
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain colored",
+        "level": "95"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain colored",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain colored",
+        "level": "95"
+      },
+      {
+        "name": "Angular",
+        "class": "devicon-angular-plain colored",
+        "level": "80"
+      },
+      {
+        "name": "ReactJS",
+        "class": "devicon-react-original colored",
+        "level": "90"
+      },
+      {
+        "name": "ExpressJS",
+        "class": "devicon-express-original-wordmark",
+        "level": "70"
+      },
+      {
+        "name": "Typescript",
+        "class": "devicon-typescript-plain colored",
+        "level": "75"
+      },
+      {
+        "name": "Javascript",
+        "class": "devicon-javascript-plain colored",
+        "level": "85"
+      },
+      {
+        "name": "Heroku",
+        "class": "devicon-heroku-original colored",
+        "level": "65"
+      },
+      {
+        "name": "AWS Cloud",
+        "class": "devicon-amazonwebservices-plain-wordmark colored",
+        "level": "60"
+      },
+      {
+        "name": "Pinecone",
+        "imgSrc": "images/pinecone.png",
+        "level": "60"
+      },
+      {
+        "name": "OpenSearch",
+        "level": "60",
+        "imgSrc": "images/opensearch.png",
+        "color": "#935cf1"
+      },
+      {
+        "name": "DocumentDB",
+        "imgSrc": "images/documentdb.png",
+        "level": "60",
+        "color": "#4a6cef"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain colored",
+        "level": "60"
+      },
+      {
+        "name": "MySQL",
+        "class": "devicon-mysql-original colored",
+        "level": "60"
+      },
+      {
+        "name": "Apache Camel",
+        "class": "devicon-apache-plain colored",
+        "level": "60"
+      },
+      {
+        "name": "ActiveMQ",
+        "class": "devicon-apache-plain colored",
+        "level": "60"
+      },
+      {
+        "name": "Tomcat 9",
+        "class": "devicon-tomcat-line colored",
+        "level": "60"
+      }
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "I'm Subhanshu Bigasia. With 5+ years of experience working as a full-stack developer, I am proficient in solving new challenges and learning about new technologies which come forth during software development.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "EasySplit",
+      "startDate": "2019",
+      "description": "EasySplit is a tool that helps people to track and split the expenses.",
+      "images": [
+        "images/money.jpg"
+      ],
+      "url": "https://github.com/subhanshu1997/EasySplit",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain colored",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-express-original-wordmark",
+          "name": "ExpressJS"
+        },
+        {
+          "class": "devicon-mongodb-plain colored",
+          "name": "MongoDB"
+        }
+      ]
+    },
+    {
+      "title": "IssueQ",
+      "startDate": "2019",
+      "description": "IssueQ is an issue tracking tool that helps the user to assign, track and update the issues in real-time.",
+      "images": [
+        "images/issue.jpg"
+      ],
+      "url": "https://github.com/subhanshu1997/IssueQ",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain colored",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-express-original-wordmark",
+          "name": "ExpressJS"
+        },
+        {
+          "class": "devicon-mongodb-plain colored",
+          "name": "MongoDB"
+        }
+      ]
+    },
+    {
+      "title": "Chat Application",
+      "startDate": "2019",
+      "description": "A simple chat application that uses socket programming to enable users to have conversations in real time.",
+      "images": [
+        "images/chat.webp"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain colored",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-express-original-wordmark",
+          "name": "ExpressJS"
+        },
+        {
+          "class": "devicon-mongodb-plain colored",
+          "name": "MongoDB"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Carelon Global Solutions, Ireland",
+      "title": "Software Developer",
+      "years": "06.2019 - present",
+      "mainTech": [
+        "Java, ReactJS"
+      ],
+      "tech": "react",
+      "technologies": [
+        "Java Spring Boot",
+        "ReactJS",
+        "NodeJS",
+        "MongoDB",
+        "Microservices",
+        "RestAPI",
+        "JUnit",
+        "Git",
+        "Generative AI",
+        "Python",
+        "FastAPI",
+        "DJango",
+        "Javascript",
+        "Typescript",
+        "HTML 5",
+        "CSS 3"
+      ],
+      "tasks": [
+        "Developed scalable applications using React JS, Java Spring Boot, Node.js, and MongoDB, with JUnit for testing and Git for version control.",
+        "Designed and implemented Proof of Concepts (POCs) to validate innovative software ideas and optimize performance.",
+        "Provided consistent bug fixes and production support to maintain high-quality product standards.",
+        "Engineered a Generative AI project with Python, FastAPI, and Django, demonstrating strong capabilities in backend development and AI integration."
+      ]
+    },
+    {
+      "company": "Capgemini Technologies",
+      "title": "Senior Software Engineer",
+      "years": "06.2019 - 07.2021",
+      "mainTech": [
+        "Java"
+      ],
+      "tech": "java",
+      "technologies": [
+        "Java Spring Boot",
+        "MySQL",
+        "Microservices",
+        "RestAPI",
+        "JUnit",
+        "Git",
+        "Backbase"
+      ],
+      "tasks": [
+        "Engineered scalable applications utilizing React JS, Java Spring Boot, Node.js, and MongoDB, with JUnit for testing and Git for version control.",
+        "Executed Proof of Concepts (POCs) to validate innovative software ideas and boost performance.",
+        "Consistently delivered bug fixes and provided production support to ensure top-tier product quality.",
+        "Spearheaded the development of a Generative AI project using Python, FastAPI, and Django, highlighting expertise in backend development and AI integration."
+      ]
+    },
+    {
+      "company": "Edu Vitae",
+      "title": "Web Developer Intern",
+      "years": "05.2018 - 07.2019",
+      "mainTech": [
+        "Java"
+      ],
+      "tech": "java",
+      "technologies": [
+        "Java",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ],
+      "tasks": [
+        "Developed high-end applications using React JS, Java Spring Boot, Node.js, MongoDB, JUnit for testing, and Git for version control.",
+        "Implemented Proof of Concepts (POCs) to validate software ideas and enhance performance.",
+        "Provided frequent bug fixes and production support to ensure high-quality products.",
+        "Developed a Generative AI project using Python, FastAPI, and Django, showcasing expertise in backend development and AI integration."
+      ]
+    }
+  ]
+}
