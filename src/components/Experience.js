@@ -24,7 +24,7 @@ class Experience extends Component {
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 iconStyle={{
-                    background: "#AE944F",
+                    background: "#93a1f5",
                     color: "#fff",
                     textAlign: "center"
                 }}
@@ -34,19 +34,19 @@ class Experience extends Component {
 
                 <h1
                     className="vertical-timeline-element-title"
-                    style={{textAlign: "left", fontSize: "30px", backgroundColor: "#d7d6d2"}}
+                    style={{textAlign: "left", fontSize: "30px",color: "white", backgroundColor: "#7982b9"}}
                 >
                     {work.title}
                 </h1>
                 <h2
                     className="vertical-timeline-element-subtitle"
-                    style={{textAlign: "left", fontSize: "20px", backgroundColor: "#d7d6d2" }}
+                    style={{textAlign: "left", fontSize: "20px", color: "white", backgroundColor: "#7982b9" }}
                 >
                     {work.company}
                 </h2>
                 <h5
                     className="vertical-timeline-element-title"
-                    style={{textAlign: "left", fontSize: "20px", color: "gray", backgroundColor: "#d7d6d2"}}
+                    style={{textAlign: "left", fontSize: "20px", color: "white", backgroundColor: "#7982b9"}}
                 >
                     {work.years}
                 </h5>
@@ -62,7 +62,7 @@ class Experience extends Component {
           <section id="resume" className="pb-5">
               <div className="col-md-12 mx-auto">
                   <div className="col-md-12">
-                      <h1 className="section-title" style={{ color: "black" }}>
+                      <h1 className="section-title" style={{ color: "white" }}>
               <span className="text-black" style={{ textAlign: "center", fontSize: "35px" }}>
                 {sectionName}
               </span>
@@ -74,7 +74,7 @@ class Experience extends Component {
             {work}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#AE944F",
+                background: "#93a1f5",
                 color: "#fff",
                 textAlign: "center",
               }}

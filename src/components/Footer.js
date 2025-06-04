@@ -16,6 +16,10 @@ class Footer extends Component {
 
     return (
       <footer>
+        <div style={{ margin: "2%", color: "white", fontSize: "20px"}}>
+        <i class="fa fa-phone"> +353-899614210</i><br/>
+        <i class="fa fa-envelope"> bigasiasubhanshu@gmail.com</i>
+        </div>
         <div className="col-md-12">
           <div className="social-links">{networks}</div>
 

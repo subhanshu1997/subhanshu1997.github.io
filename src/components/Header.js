@@ -34,7 +34,7 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 5000, display: 'block' }}>
+      <header id="home" style={{ height: window.innerHeight - 5000, display: 'block', color: "white" }}>
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
@@ -46,46 +46,12 @@ class Header extends Component {
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
-              <Switch
-                checked={this.state.checked}
-                onChange={this.onThemeSwitchChange}
-                offColor="#baaa80"
-                onColor="#353535"
-                className="react-switch mx-auto"
-                width={90}
-                height={40}
-                uncheckedIcon={
-                  <span
-                    className="iconify"
-                    data-icon="twemoji:owl"
-                    data-inline="false"
-                    style={{
-                      display: "block",
-                      height: "100%",
-                      fontSize: 25,
-                      textAlign: "end",
-                      marginLeft: "20px",
-                      color: "#353239",
-                    }}
-                  ></span>
-                }
-                checkedIcon={
-                  <span
-                    className="iconify"
-                    data-icon="noto-v1:sun-with-face"
-                    data-inline="false"
-                    style={{
-                      display: "block",
-                      height: "100%",
-                      fontSize: 25,
-                      textAlign: "end",
-                      marginLeft: "10px",
-                      color: "#353239",
-                    }}
-                  ></span>
-                }
-                id="icon-switch"
-              />
+              <a href="https://github.com/subhanshu1997"  target="_blank" rel="noopener noreferrer" style={{color: "white", textDecoration: "none"}}>
+              <i class="devicon-github-original" style={{fontSize: "40px"}}></i>
+              </a>
+              <a href="https://www.linkedin.com/in/subhanshu-bigasia-a2a640156/" target="_blank" rel="noopener noreferrer" style={{color: "white", textDecoration: "none"}}>
+              <i class="devicon-linkedin-plain" style={{fontSize: "40px", marginLeft: "100px"}}></i>
+              </a>
             </div>
           </div>
         </div>
