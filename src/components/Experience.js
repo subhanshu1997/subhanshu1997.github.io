@@ -34,19 +34,19 @@ class Experience extends Component {
 
                 <h1
                     className="vertical-timeline-element-title"
-                    style={{textAlign: "left", fontSize: "30px",color: "white", backgroundColor: "#7982b9"}}
+                    style={{textAlign: "left", fontSize: "30px",color: "white", backgroundColor: "#7982b9", paddingLeft: "10px", paddingTop: "10px"}}
                 >
                     {work.title}
                 </h1>
                 <h2
                     className="vertical-timeline-element-subtitle"
-                    style={{textAlign: "left", fontSize: "20px", color: "white", backgroundColor: "#7982b9" }}
+                    style={{textAlign: "left", fontSize: "20px", color: "white", backgroundColor: "#7982b9", paddingLeft: "10px", paddingTop: "2px" }}
                 >
                     {work.company}
                 </h2>
                 <h5
                     className="vertical-timeline-element-title"
-                    style={{textAlign: "left", fontSize: "20px", color: "white", backgroundColor: "#7982b9"}}
+                    style={{textAlign: "left", fontSize: "20px", color: "white", backgroundColor: "#7982b9", paddingLeft: "10px", paddingTop: "2px", paddingBottom: "7px"}}
                 >
                     {work.years}
                 </h5>
