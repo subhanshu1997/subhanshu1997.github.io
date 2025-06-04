@@ -118,6 +118,12 @@
         "Typescript",
         "HTML 5",
         "CSS 3"
+      ],
+      "tasks": [
+        "Created high-end applications with React JS, Java Spring Boot, NodeJS, MongoDB, JUnit for testing, and Git for version control.",
+        "Implemented Proof of Concepts (POCs) to validate software ideas and enhance performance.",
+        "Delivered frequent bug fixes to ensure high-quality products and provided production support.",
+        "Developed a Generative AI project using Python, FastAPI, and Django, showcasing expertise in backend development and AI integration."
       ]
     },
     {
@@ -125,33 +131,3 @@
       "title": "Senior Software Engineer",
       "years": "06.2019 - 07.2021",
       "mainTech": [
-        "Java"
-      ],
-      "tech": "java",
-      "technologies": [
-        "Java Spring Boot",
-        "MySQL",
-        "Microservices",
-        "RestAPI",
-        "JUnit",
-        "Git",
-        "Backbase"
-      ]
-    },
-    {
-      "company": "Edu Vitae",
-      "title": "Web Developer Intern",
-      "years": "05.2018 - 07.2019",
-      "mainTech": [
-        "Java"
-      ],
-      "tech": "java",
-      "technologies": [
-        "Java",
-        "HTML",
-        "CSS",
-        "Bootstrap"
-      ]
-    }
-  ]
-}
